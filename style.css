@@ -3,6 +3,10 @@ body {
   color: #143f21;
   font-family: 'Segoe UI', sans-serif;
 }
+#descriptions{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: medium;
+}
 .navbar {
   background-color: #143f21;
 }
