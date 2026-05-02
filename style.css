@@ -8,14 +8,15 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: medium;
 }
 .navbar {
-  background-color: #143f21;
+  background-color: #3f1414;
 }
 .navbar-brand, .nav-link {
   color: #fff !important;
   font-weight: bold;
 }
 .hero {
-  background-image: url('https://images.squarespace-cdn.com/content/v1/673925059feafc19da587db2/c47ba6ce-5263-4a9c-834e-839a4fa09772/_CA14722.jpg?format=2500w');
+  /*background-image: url('https://images.squarespace-cdn.com/content/v1/673925059feafc19da587db2/c47ba6ce-5263-4a9c-834e-839a4fa09772/_CA14722.jpg?format=2500w');
+  */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,7 +24,7 @@ font-size: medium;
   padding: 60px 20px;
 
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: monospace;
   font-weight: bold;
   font-size: x-large;
@@ -32,7 +33,7 @@ font-size: medium;
   font-family: monospace;
   font-weight: 500;
   font-size: 3rem;
-  color: #f8f3ef;
+  color: #000000;
   margin-bottom: 10px;
 }
 .menu-item {
@@ -43,9 +44,7 @@ font-size: medium;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   padding: 15px;
   margin-bottom: 15px;
-  width: 1520px;
-  height: 250px;
-  
+  min-height: 250px;
 }
 footer {
   background-color: #143f21;
