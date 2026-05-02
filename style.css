@@ -14,28 +14,121 @@ font-size: medium;
   color: #fff !important;
   font-weight: bold;
 }
+
 .hero {
-  /*background-image: url('https://images.squarespace-cdn.com/content/v1/673925059feafc19da587db2/c47ba6ce-5263-4a9c-834e-839a4fa09772/_CA14722.jpg?format=2500w');
-  */
+  background-image: url("images/mapfirewalk.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-  padding: 60px 20px;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    align-items: center;
 
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #3b1f1f;
+  text-shadow: 2px 2px 5px rgba(255, 240, 220, 0.9);
   font-family: monospace;
   font-weight: bold;
   font-size: x-large;
 }
 .hero h1 {
+  
   font-family: monospace;
   font-weight: 500;
-  font-size: 3rem;
-  color: #000000;
+  font-size: 5rem;
+  color: #3b1f1f;
+  text-shadow: 2px 2px 5px rgba(255, 240, 220, 0.9);
   margin-bottom: 10px;
 }
+
+.play-button {
+  margin-top: 25px;
+  padding: 12px 30px;
+
+  background-color: #4b1717;
+  color: #f5eadc;
+
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: none;
+
+  border: 2px solid #2b0c0c;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.play-button:hover {
+  background-color: #8d0101;
+  color: white;
+  transform: scale(1.05);
+}
+
+.about-page {
+  background-image: url("images/mapfirewalk.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+}
+
+.about-box {
+  max-width: 850px;
+  margin: 120px auto;
+  padding: 40px;
+
+  background-color: rgba(248, 243, 239, 0.88);
+  border: 2px solid #3f1414;
+  border-radius: 12px;
+
+  text-align: center;
+  color: #143f21;
+  font-family: monospace;
+
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.about-box h2 {
+  color: #3b1f1f;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body.about-page {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-image: url("images/treetest.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.about-page footer {
+  margin-top: auto;
+}
+
 .menu-item {
   background-color: #fff;
   font-family: monospace;
@@ -46,6 +139,7 @@ font-size: medium;
   margin-bottom: 15px;
   min-height: 250px;
 }
+
 footer {
   background-color: #143f21;
   color: white;
